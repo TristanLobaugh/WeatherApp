@@ -3,16 +3,29 @@
 <head>
 	<title>Weather App</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
+	<div id="container">
+		<div id="weather-wrapper" class="col-md-6 col-md-offset-3">
+			<canvas id="current-temp" class="col-md-7">
+				<!-- Temp canvas style -->
+			</canvas>
+			<div class="col-md-5">
+				<div id="icon-wrapper" class="col-md-12">
+					<div id="icons" class="col-md-12"></div>
+					<div id="weather-description" class="col-md-12"></div>
+				</div>
+					<input id="city-selector" class="col-md-7" type="text" placeholder="Enter City">
+					<input id="submit-button" class="col-md-4" type="btn" value="Submit">
+					<div id="city" class="col-md-12">Atlanta</div>
 
-	<canvas id="current-temp">
-		<!-- Temp canvas style -->
+			</div>
+		</div>
 		
 
-	</canvas>
-
+	</div>
 
 
 

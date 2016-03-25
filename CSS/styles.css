@@ -1,7 +1,28 @@
-
-
-
-
+#weather-wrapper{
+	margin-top: 50px;
+	border: 2px solid black;
+	background-color: #ddeedd;
+	border-radius: 10px;
+	padding: 20px 0;
+}
+#icon-wrapper{
+	height: 100px;
+}
+#icons{
+	text-align: center;
+}
+#weather-description{
+	text-align: center;
+}
+input{
+	text-align: center;
+}
+#city{
+	padding: 20px 0;
+	color: black;
+	font-size: 25px;
+	text-align: left;
+}
 
 
 
